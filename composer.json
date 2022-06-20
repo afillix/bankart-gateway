@@ -3,6 +3,11 @@
     "description": "Bankart Gatewat PHP composer package",
     "type": "library",
     "license": "proprietary",
+    "autoload": {
+        "psr-4": {
+            "Afillix\\BankartGateway\\": "src/"
+        }
+    },
     "authors": [
         {
             "name": "Afillix",
