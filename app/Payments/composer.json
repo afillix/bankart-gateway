@@ -1,21 +1,14 @@
 {
-    "name": "pgc/pgc-php-client",
-    "description": "Client for PHP",
-    "keywords": [],
-    "license": "MIT",
-    "type": "project",
-    "require": {
-        "php": ">=5.6",
-        "ext-curl": "*",
-        "../../vendor/psr/log": "1.*"
-    },
-    "autoload": {
-        "psr-4": {
-            "PaymentGateway\\Client\\": "src/"
+    "name": "afillix/bankart-gateway",
+    "description": "Bankart Gatewat PHP composer package",
+    "type": "library",
+    "license": "proprietary",
+    "authors": [
+        {
+            "name": "Afillix",
+            "email": "contact@afillix.com"
         }
-    },
-    "scripts": {
-    },
+    ],
     "minimum-stability": "dev",
-    "prefer-stable": true
+    "require": {}
 }
